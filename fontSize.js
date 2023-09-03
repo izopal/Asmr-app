@@ -8,6 +8,7 @@ function updateTextSize() {
   // Встановлюємо розмір тексту відповідно до розмірів вікна
   const textSize = Math.min(windowWidth, windowHeight) * 0.015;         // Наприклад, 1.5% від мінімального розміру
   textElement.style.fontSize = textSize + 'px';                         // Застосовуємо розмір тексту до елементу
+  
 }
 
 // Викликаємо функцію при завантаженні та зміні розмірів вікна

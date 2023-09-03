@@ -21,7 +21,7 @@ function clearInput() {
 }
 // функцію для генерування випадкового ключа
 function generateRandomKey(length) {
-    const alfaBeta = "АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯабвгґдеєжзиіїйклмнопрстуфхцчшщьюя1234567890-+*/%=_<>[]{}()|,.;:'`~Ёё!?@#$&%^QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm ";
+    const alfaBeta = "АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯабвгґдеєжзиіїйклмнопрстуфхцчшщьюя1234567890-+*/%=_<>[]{}()|,.;:'`~Ёё!?@#$&%^QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm";
     let randomKey = '';
     for (let i = 0; i < length; i++) {
         const randomIndex = Math.floor(Math.random() * alfaBeta.length);
